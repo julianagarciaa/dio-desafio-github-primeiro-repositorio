@@ -1,0 +1,62 @@
+Primeiros passos com .NET
+O que é .NET
+•Conhecendo o framework
+.NET – Microsoft/ Windows
+Visual Studio Code – Editor de códigos / textos opensource e multiplataforma
+•O que é, como e aonde usar .NET
+Infraestrutura para desenvolvimento de software criada pela Microsoft.
+Iniciando com .NET
+•Preparando o ambiente
+Instalar o .NET - Download .NET
+Instalar o editor de código – Visual Studio Code (VS Code) – https://code.visualstudio.com/
+Instalar plugins no VS Code – C#, C# extensions.
+
+•Conhecendo a CLI do .NET
+Terminal de comando (cmd, ConEmu, etc.):  dotnet --version    /    dotnet –help
+
+•Criando uma aplicação console
+Conhecendo o C#
+
+•O que é e como funciona o C#
+Linguagem orientada a objeto e fortemente tipada. Sintaxe similar a do C, C++ e Java.
+Suporta os conceitos de encapsulamento, herança e polimorfismo (OO)
+Linguagem mais utilizada no .NET
+Os programas C# são executados no .NET, que inclui:
+CLR (Common Language Runtime)
+Conjunto unificado de bibliotecas de classes
+Compilador do C#: Roslyn
+O CLR também fornece outros serviços:
+Garbage Collector
+Exception Handler
+Resources Manager
+
+•Estrutura do programa
+Principais conceitos organizacionais em C# são:
+Programas
+Namespaces
+Tipos
+Membros
+Assemblies
+
+Conhecendo variáveis e instruções em C#
+•Tipos de Valor 
+Variáveis de tipos de valor - contem diretamente seus dados e podem ser:
+Numéricos: sbyte, short, int, long, byte, ushort, uint, ulong
+Caracteres Unicode: char
+Pontos flutuantes: float, double, decimal
+Booleano: bool
+Outros tipos: enum, struct e tipos nullable
+Variáveis de referência – armazenam referências a seus dados.
+Tipos Classe: class, object, string
+Tipos Arrays: int[], int[,], atc...
+Outros tipos: interface, delegate
+
+•Utilizando Instruções em programas
+Instruções expressam ações de um programa e podem ser agrupadas dentro de blocos delimitados por chaves { }.
+Instruções condicionais: if, switch
+Instruções de repetição: while, do, for, foreach
+Instruções auxiliares: break, continue, return, throw, try.. catch .. finally (exceções), using;
+
+•Exemplo Prático
+•Arrays
+Estrutura de dados que contem um numero X de elementos, todos do mesmo tipo, que são acessados através de índices computados.
