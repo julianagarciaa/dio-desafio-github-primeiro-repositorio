@@ -1,0 +1,60 @@
+Introdução ao Git
+Entendendo o que é Git e sua importância
+O Git é um sistema de versionamento de código distribuído criado por Linus Torvalds.
+   
+Navegação via command line interface e instalação
+•Comandos Básicos para um bom desempenho no terminal
+GUI (Graphical user interface) x CLI (command line interface)
+Concebido através de linhas de comando.
+ 
+Primeiros comandos (testar no terminal):
+Listar: dir
+Change directory (navega entre pastas): cd / 
+				 	cd Windows
+				   	cd .. (retorna um nível na navegação)
+Limpar a tela: ctrl +l
+Atalho para autocompletar: TAB
+Criar pasta/diretório (make directory)s: mkdir nomedapasta
+Criar arquivos: echo hello > hello.txt (cria um arquivo texto com a msg hello dentro)
+Deletar arquivos: del nomedapasta
+Deletar/remover repositórios: rmdir nomedapasta /S /Q
+•	Realizando a instalação do GIT
+https://git-scm.com/
+Entendendo como o Git funciona por baixo dos panos
+•Tópicos fundamentais para entender o funcionamento do Git
+
+SHA1
+Secure Hash Algorithm (Algoritmo de Hash Seguro) é um conjunto de funções hash criptográficas projetadas pela NSA (Agência de Segurança Nacional dos EUA).
+A encriptação gera conjunto de caracteres identificador de 40 dígitos.
+ 
+Objetos fundamentais
+Sistema Distribuído
+Segurança
+
+•Objetos internos do Git
+BLOBS: contem metadados do Git como tipo do objeto, tamanho do arquivo e conteúdo do arquivo.
+   
+TREES: armazenam BLOBS, é responsável por montar toda estrutura de onde estão localizados os arquivos.
+    
+COMMITS: É o mais importante, é o objeto que vai juntar tudo e dar sentido para alteração que for feita. Leva um timestamp (carimbo de tempo) do momento que for criado.
+
+Sistema distribuído Seguro: 
+•Chave SSH e Token
+Chave SSH: É uma forma de estabelecer uma conexão segura e encriptada entre duas máquinas. Assinatura da máquina sem precisar de senha.
+ 
+Token de Acesso Pessoal: Gerar um código para acessar e guardar na máquina.
+Primeiros comandos com Git
+•Iniciando o Git e criando um commit
+Iniciar o GIT: git init
+Iniciar o versionamento: git add
+Criar um commit: git commit
+***Flag -a : mostra arquivos ocultos > ls -a
+git init
+git add *
+git commit -m "commit inicial"
+ 
+
+
+
+
+
