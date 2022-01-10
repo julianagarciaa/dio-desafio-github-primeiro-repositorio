@@ -1,0 +1,3 @@
+Instalação Visual Studio
+https://visualstudio.microsoft.com/pt-br/downloads/
+Instalar carga de trabalho: Desenvolvimento para desktop com .NET
